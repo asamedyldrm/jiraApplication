@@ -1,0 +1,100 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-add-title{
+    text-align: center;
+}
+
+.task-div {
+    width: 35%;
+    margin: 0.2rem;
+    
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.task-label {
+    margin: 1rem 0 1rem 0;
+}
+
+.task-input {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+.task-btn {
+    margin: 1rem 0 1rem 0;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: rgb(64, 82, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-btn:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.task-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.task-title{
+    margin-bottom: 0.2rem;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.task button{
+    width: 50%;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: rgb(64, 82, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task .delete-btn{
+    background-color: red;
+}
+
+.task .update-btn{
+    background-color: yellowgreen;
+}
+
+.task button:hover{
+    background-color:  rgb(36, 36, 36);
+}
